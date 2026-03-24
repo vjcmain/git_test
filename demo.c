@@ -1,13 +1,12 @@
 #include <stdio.h>
 #include <stdint.h>
-struct demo
-{
-    uint8_t indx;
-    uint8_t code;
-};
 
 int main()
 {
-    printf("Hello, world!\n");
+    for (size_t i = 0; i < 10; i++)
+    {
+        printf("Hello, world! %d\n", i);
+    }
+
     return 0;
 }
